@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rodzaje uprawnien stanowiska FK" directorySegmentName="seg_0" id="7015B431-21F5-CFF0-B29E-A30532A6FE6C">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:42:35 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<sourcePk>0B0FB1FE-E3BA-8548-897F-949A0097B432</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8751CE33-BA22-2925-1E96-30F5E5BB7014</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7E93F20B-3756-4E98-86DF-89AB3F3FC5DE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

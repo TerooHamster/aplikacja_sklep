@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54A1F204-5101-B764-FA5E-8A2122D98FAD" name="pracownicy">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:13:28 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pracownika" id="6841E60F-F766-5D1A-13F6-382FE231518A">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:13:49 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_rola" id="51C48BCF-EAB5-D073-2B88-343523AE7F27">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:18:51 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rola" id="7C3C5632-EE1A-6950-AA6A-9FB6DA872232">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-02 04:57:08 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="98704335-06B9-B760-9A17-62D114E750F2">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:19:29 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="A511F22A-43EF-CB49-40A4-9DC7016E3ABC">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:19:39 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="62BE3E8A-073E-0D6A-0C06-BB6F3590685F">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:19:05 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hasło" id="AEEE1000-37AA-942E-2F14-60B05DD5A1ED">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:19:14 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="czy_zatrudniony_tak_nie" id="24326D76-9704-979F-3B7C-6F7E74819FB7">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:20:01 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_zatrudnienia" id="7AF59C11-9619-4A35-712C-BEECAC37AC6F">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:20:25 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_zwolnienia" id="703A015F-7637-CCDF-ED83-B7B4ADE51D10">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:20:39 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aktualne_stanowisko" id="8638B66E-937C-B1F3-2FB7-3565234B8FDF">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:21:17 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_rola1" id="54F46A2F-EEA5-269F-FAB3-2E8AAD3CF8FC">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-02 05:07:31 UTC</createdTime>
+<generatorID>FA1B7933-0216-DA23-6F0F-27CDE5E53113</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E528E58-6274-8F05-9D13-C6F78959908D" referredColumn="0A81DF77-29BD-2EFE-26D5-06B2C8195352"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBD9FD76-5889-9A5E-AAC4-360A66C74E08" name="pracownicy_PK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:13:51 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6841E60F-F766-5D1A-13F6-382FE231518A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89FC1E3A-9DC8-8FBE-ABA0-EEAA2203F2C6" name="pracownicy__IDX">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-02 05:07:31 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>76E0E94C-31D1-9A1F-B4C1-FC031DEAB0FE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="54F46A2F-EEA5-269F-FAB3-2E8AAD3CF8FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F71A5FEE-2891-08D4-4A4A-667DE1933824" name="pracownicy_role_FK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-02 05:07:31 UTC</createdTime>
+<generatorID>76E0E94C-31D1-9A1F-B4C1-FC031DEAB0FE</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54F46A2F-EEA5-269F-FAB3-2E8AAD3CF8FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

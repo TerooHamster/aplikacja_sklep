@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="stan sklepu produkty FK" directorySegmentName="seg_0" id="8DE6C801-D2D7-7791-26CD-F5855FCA8105">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:40:12 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<sourcePk>65700A11-C147-2602-5283-CED1EA33A78B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ABC607BB-7808-D8AB-5FF5-AFA874DA6FE2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>09F801AA-C235-B3F6-A60B-EC6CC720D865</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9345E8B7-A383-B542-1ACD-40388638C1E6" name="klienci">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:05:19 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_klienta" id="62C05382-BAB6-89F0-DB75-6D923B0A2284">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:07:10 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_rola" id="124A744C-FA46-033D-0AEC-27F9EF2D1E96">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-02 04:55:54 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rola" id="BE3195D4-53ED-B980-2CB0-4BF897B0BC1C">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-02 04:56:14 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="C43C552A-157F-0C3F-014A-2FB0483F2D3A">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:08:04 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hasło" id="32B97467-5C0D-8D13-1120-617E35061FE8">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:09:41 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="A6F20256-F6AC-24DB-1B6A-62541471DABD">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:09:56 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="78BDC92D-0DBA-E269-6F88-AD40CE555FC1">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:10:05 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adres_zamieszkania" id="0685B70D-11DD-E15B-6A95-7AC1DFE8BEE2">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:10:19 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="F97FAA00-F0F8-A721-8D14-5394AA98BB7A">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:10:31 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e-mail" id="2341FAEE-3A53-7CA1-6A10-A25E3BA04081">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:11:02 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_rola1" id="258F8BA5-ACF0-C7C5-661A-7A9198699826">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-02 05:07:31 UTC</createdTime>
+<generatorID>AEA926DA-D1D1-A2F2-9027-D7D13D61388A</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1534A61-35F7-11F0-F7C1-31ABE0BD8506" referredColumn="0A81DF77-29BD-2EFE-26D5-06B2C8195352"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8A8DA41-2B87-8E3C-ECC7-D1E9F2B23EF3" name="klienci_PK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:07:16 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62C05382-BAB6-89F0-DB75-6D923B0A2284"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9219D321-99AD-F5A7-8364-5C70E413DDAB" name="klienci__IDX">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:43:02 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2F5AC65D-38E6-685E-EC62-2D17A30F4CAD</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="6CA2C9E8-4809-C98A-110A-0116D59A3699" name="klienci__IDX">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-02 05:07:31 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F2191D4A-1A2B-F8A0-3F6E-E78F60D897DD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="258F8BA5-ACF0-C7C5-661A-7A9198699826"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2306E9C-EFE0-3B6A-DA1B-697F2E7AA7C6" name="klienci_role_FK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-02 05:07:31 UTC</createdTime>
+<generatorID>F2191D4A-1A2B-F8A0-3F6E-E78F60D897DD</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="258F8BA5-ACF0-C7C5-661A-7A9198699826"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EAD04DCD-88E0-8147-007B-A15CCA49C11C" name="Administrator">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-09 19:49:24 UTC</createdTime>
+<generatorID>2FAC506A-95E8-C456-C09D-599B43C92C61</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="57545F9A-33E0-5666-8D7A-C9EB803C9846">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-09 19:49:24 UTC</createdTime>
+<generatorID>45C4B4E2-36FB-26DC-F9D5-A63CE4DE2309</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="846D181B-C0EB-589B-0173-FA97B72273F2">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-09 19:49:24 UTC</createdTime>
+<generatorID>D7F75A89-EE5A-2C71-F5A7-B1856F508BE9</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rola" id="209701A4-8CCF-CE72-6E2F-359D3F2C3474">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-09 19:49:24 UTC</createdTime>
+<generatorID>9700DBD2-4827-1419-E425-55DA2B70D712</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
