@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78CCDA86-9D0E-E6AA-B9C8-FD1EACD69AD4" name="zamowienia_produkty">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 21:49:43 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="84928856-4133-085F-2FD1-60EA93D824D1">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 21:50:05 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_zamowienia" id="B51D698C-ED93-6A20-1B45-FFA290A77757">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 21:51:33 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_produktu" id="94C2B0D7-38CA-DB99-11F9-9EACAD81422E">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 21:51:48 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_produktu1" id="24E7639C-1AD1-DDAF-93BB-59EC948BDF25">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:43:02 UTC</createdTime>
+<generatorID>6537C5FC-2FCE-D409-23E7-24C1F7FA014A</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F01AC51-B8AC-F900-7BE7-C754E19333F3" referredColumn="5C1156C7-D5C3-1B0C-08C9-3E93CDEE6592"/>
+</associations>
+</Column>
+<Column name="id_kategorie" id="67E2C334-658E-2035-B642-C742AD35D196">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:43:02 UTC</createdTime>
+<generatorID>A4CD133A-59F0-4816-7BF7-E80AB485EBB0</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F01AC51-B8AC-F900-7BE7-C754E19333F3" referredColumn="23D5EAD0-9984-9DA8-75DB-C685A2CD78EB"/>
+</associations>
+</Column>
+<Column name="id_zamowienia1" id="C301587E-48FA-2FD7-B56B-4B8DEB57EA4C">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:43:02 UTC</createdTime>
+<generatorID>421F256D-DB3C-3865-1730-8BA02AD03F5A</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30FA0666-05BE-28CD-9C00-3F1CF323ED3D" referredColumn="B2DFC3DD-BC9D-6504-F48D-93DFFCEE3D80"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19827977-AA40-9C62-3C23-67124401DA6B" name="zamowienia_produkty_PK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 21:50:05 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84928856-4133-085F-2FD1-60EA93D824D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A72A2EE-3DAF-1B88-8086-3EEC0A8094A3" name="zamowienia_produkty_produkty_FK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:43:02 UTC</createdTime>
+<generatorID>5893C381-9471-4B2F-4473-C6229CC150E4</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24E7639C-1AD1-DDAF-93BB-59EC948BDF25"/>
+<colUsage columnID="67E2C334-658E-2035-B642-C742AD35D196"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53A0CF4B-9CFA-D7F1-DE61-502579BBA361" name="zamowienia_produkty_zamowienia_FK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:43:02 UTC</createdTime>
+<generatorID>90B3ABC3-F45C-B372-DC92-A555162AD2F8</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C301587E-48FA-2FD7-B56B-4B8DEB57EA4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

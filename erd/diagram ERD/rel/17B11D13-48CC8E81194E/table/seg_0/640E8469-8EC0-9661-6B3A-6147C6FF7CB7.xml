@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="640E8469-8EC0-9661-6B3A-6147C6FF7CB7" name="Gość">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-09 19:41:20 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Gość_ID" id="A2422655-E7CF-4E5F-AD21-566F9D1D6CF5">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-09 19:50:33 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="nazwa" id="052A2E1A-B12F-3849-4D5E-DB5574FAE000">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-09 19:45:55 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rola" id="18629485-8B74-367B-15EF-E79DC837BA39">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-09 19:46:03 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A8ECE00-2B30-4A07-2063-DC86E6E41CB7" name="Gość_PK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-09 19:50:33 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A2422655-E7CF-4E5F-AD21-566F9D1D6CF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

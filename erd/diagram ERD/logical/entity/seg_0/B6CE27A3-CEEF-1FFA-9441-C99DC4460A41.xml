@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6CE27A3-CEEF-1FFA-9441-C99DC4460A41" name="Użytkownik">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-09 19:49:24 UTC</createdTime>
+<generatorID>8F4A8831-35A5-CD5B-C9D1-F5EA81D5CBA8</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="EC0C7C35-8C14-4CC8-2D47-60DDEE90285E">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-09 19:49:24 UTC</createdTime>
+<generatorID>898B4FE7-13C7-FFD7-4DCE-49C3B91DBBE2</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="AAAE9B67-4AE9-D748-342C-694AAC412378">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-09 19:49:24 UTC</createdTime>
+<generatorID>29552DAA-4D62-4919-11AB-D6C45B389167</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rola" id="FB6DE644-D42C-F295-BF18-3C3BBDA76D9B">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-09 19:49:24 UTC</createdTime>
+<generatorID>B925B3A1-D95A-A7DF-1CBC-36F06F4E725E</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

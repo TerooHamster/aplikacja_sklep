@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="135F2E7C-7CAB-0CEF-3487-1CC4EC5F445D" name="producent">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:38:03 UTC</createdTime>
+<generatorID>EA416211-4E91-C286-818B-EB98A87D963C</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id producenta" id="41B2D402-7F6E-11DC-9CBC-0CE253A90FFF">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:38:03 UTC</createdTime>
+<generatorID>93D63B33-DBD2-549A-CCFD-30513406F403</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa producenta" id="38AB8CA3-2678-F8A7-7EE6-8B516B2637DC">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:38:03 UTC</createdTime>
+<generatorID>4B95B51A-4275-1F4D-2C04-F0D2CD7F7343</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A845A104-4D23-656B-ED86-C4C9D1EC1516" name="producent PK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:38:03 UTC</createdTime>
+<generatorID>269DEF9A-1757-E09F-E7BD-9E821A3BA7CC</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41B2D402-7F6E-11DC-9CBC-0CE253A90FFF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

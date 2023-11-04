@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8110DAD3-8A92-C501-F236-E1B2FA7A6933" name="producenci_kategorie">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 21:42:11 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producenci_kategorie" id="72950142-5DEB-714F-8B92-41EA292FAD04">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 21:44:05 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_kategoria" id="15353F9F-5599-E36E-33F1-645B20D6EC96">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 21:44:33 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_producenta" id="045A1BA2-F74D-533E-2FDE-F3C0FBAFC581">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 21:46:29 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_kategorii" id="16201AB7-95B5-A2A2-3C1C-A4FE8585BCFA">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:43:02 UTC</createdTime>
+<generatorID>B6834D7F-30F3-57E4-4340-FD861E39177A</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B127AC0-F461-2269-8AE3-A3F875803E93" referredColumn="4DA26070-717E-1CF4-E6A7-D08A09230234"/>
+</associations>
+</Column>
+<Column name="id_producenta1" id="7338A4B4-FAB8-9045-36AE-878C6A554B8A">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:43:02 UTC</createdTime>
+<generatorID>2C7C641D-74F6-5005-3C4A-2D2F6F9D14F6</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D40F1049-777F-FCB0-1F4B-78DFE83C8AA5" referredColumn="93D63B33-DBD2-549A-CCFD-30513406F403"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="309AF0DB-7168-4E0E-4659-41A497AEC233" name="producenci_kategorie_PK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 21:44:05 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72950142-5DEB-714F-8B92-41EA292FAD04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3854B25C-6C62-1936-59B7-1DBB04D29179" name="producenci_kategorie_kategorie_FK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:43:02 UTC</createdTime>
+<generatorID>171C9541-B0B7-D7B5-8EBF-82268B043976</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16201AB7-95B5-A2A2-3C1C-A4FE8585BCFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9CBD21E-9BDA-CC90-DC70-72274FB5B59F" name="producenci_kategorie_producent_FK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:43:02 UTC</createdTime>
+<generatorID>DB73747D-9D7F-9F02-91EC-E5A44461F35F</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7338A4B4-FAB8-9045-36AE-878C6A554B8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

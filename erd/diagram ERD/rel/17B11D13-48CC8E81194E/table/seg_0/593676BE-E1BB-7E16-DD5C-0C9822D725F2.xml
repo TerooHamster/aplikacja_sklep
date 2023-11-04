@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="593676BE-E1BB-7E16-DD5C-0C9822D725F2" name="rodzaje_uprawnien">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:23:40 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_uprawnienia" id="4077A5D5-3B2E-C966-35A3-B471E12F4C29">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:23:57 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa_uprawnienia" id="47B18F48-11C8-AB92-ED20-53718A78AB2C">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:24:10 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis_uprawnienia" id="B7F80359-6880-B3AA-3523-F8AE1DDAE427">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:24:22 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_stanowiska" id="CFAB5A48-6D91-97A2-9CB1-592444C64BC1">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-02 05:07:31 UTC</createdTime>
+<generatorID>AEB2B0F2-73F7-0618-A041-EE117D942911</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34A1B28F-FDBE-FC82-9879-E025760F363E" referredColumn="E8381633-1B4F-B5CC-4DE3-7F4FF8C9CA07"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A99447F0-3E09-69E0-CD9E-C7E1A9F41424" name="rodzaje_uprawnien_PK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:23:57 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4077A5D5-3B2E-C966-35A3-B471E12F4C29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="535DDB11-2191-A046-2598-10B29BC18026" name="rodzaje_uprawnien_stanowiska_FK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-02 05:07:31 UTC</createdTime>
+<generatorID>7015B431-21F5-CFF0-B29E-A30532A6FE6C</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFAB5A48-6D91-97A2-9CB1-592444C64BC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

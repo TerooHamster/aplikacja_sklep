@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="produkty producenci kategorie FK" directorySegmentName="seg_0" id="8B8BC2F6-A149-DBDA-216C-79AD35B2CB28">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:40:26 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<sourcePk>F636133C-12D8-FC0D-817C-7D2B1AC0DF87</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BA72A6B3-B49D-472C-4715-2B3F7E16FCF0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ABC607BB-7808-D8AB-5FF5-AFA874DA6FE2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

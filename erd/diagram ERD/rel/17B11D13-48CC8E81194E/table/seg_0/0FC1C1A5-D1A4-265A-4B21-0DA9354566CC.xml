@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FC1C1A5-D1A4-265A-4B21-0DA9354566CC" name="kategorie">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 21:47:30 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kategorii" id="4DA26070-717E-1CF4-E6A7-D08A09230234">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 21:47:59 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa_kategorii" id="B3C736AD-0FF6-1732-321E-2B62BC3AACBC">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 21:47:59 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0FA21D17-C721-04BC-7AEF-5DE171B38BAC" name="kategorie_PK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 21:50:23 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DA26070-717E-1CF4-E6A7-D08A09230234"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

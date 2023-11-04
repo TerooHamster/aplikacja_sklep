@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="faktury stan sklepu FK" directorySegmentName="seg_0" id="246E5928-F74E-4D95-DCE4-197690E730FE">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:42:52 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<sourcePk>A4042F8D-AF53-4832-009F-01B190BF9B35</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>09F801AA-C235-B3F6-A60B-EC6CC720D865</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3C16A23E-4CCC-C870-8851-80623679B4BB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

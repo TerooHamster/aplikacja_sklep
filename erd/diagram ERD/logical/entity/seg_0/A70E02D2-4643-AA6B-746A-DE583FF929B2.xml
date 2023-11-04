@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A70E02D2-4643-AA6B-746A-DE583FF929B2" name="zamowienia produkty">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:38:03 UTC</createdTime>
+<generatorID>78CCDA86-9D0E-E6AA-B9C8-FD1EACD69AD4</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="5870570A-CB8D-3849-5B57-D770E356231A">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:38:03 UTC</createdTime>
+<generatorID>84928856-4133-085F-2FD1-60EA93D824D1</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id zamowienia" id="9738E5A6-C8E3-C50A-B585-479766E8BB9D">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:38:03 UTC</createdTime>
+<generatorID>B51D698C-ED93-6A20-1B45-FFA290A77757</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id produktu" id="DA852DFE-0A62-2D03-6D8F-84EA1094DF8C">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:38:03 UTC</createdTime>
+<generatorID>94C2B0D7-38CA-DB99-11F9-9EACAD81422E</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id produktu1" id="6537C5FC-2FCE-D409-23E7-24C1F7FA014A">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:39:32 UTC</createdTime>
+<generatorID>5893C381-9471-4B2F-4473-C6229CC150E4</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<referedAttribute>570437B1-4701-84AF-EE19-E8FFB2D42FF7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id kategorie" id="A4CD133A-59F0-4816-7BF7-E80AB485EBB0">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:39:32 UTC</createdTime>
+<generatorID>5893C381-9471-4B2F-4473-C6229CC150E4</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<referedAttribute>42773F5F-8DC1-AD77-E848-6813578C1DD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id zamowienia1" id="421F256D-DB3C-3865-1730-8BA02AD03F5A">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:40:49 UTC</createdTime>
+<generatorID>90B3ABC3-F45C-B372-DC92-A555162AD2F8</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<referedAttribute>16B6DA7A-6DAE-A57B-D1FC-FB5388338E9C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E523236-F897-FDD3-ADB8-F4D13D70F534" name="zamowienia_produkty_PK">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-09-02 22:38:03 UTC</createdTime>
+<generatorID>19827977-AA40-9C62-3C23-67124401DA6B</generatorID>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5870570A-CB8D-3849-5B57-D770E356231A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

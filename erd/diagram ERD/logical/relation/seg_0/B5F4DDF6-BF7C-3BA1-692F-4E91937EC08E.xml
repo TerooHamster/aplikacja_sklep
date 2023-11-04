@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="stanowiska role FK" directorySegmentName="seg_0" id="B5F4DDF6-BF7C-3BA1-692F-4E91937EC08E">
+<createdBy>Krystian</createdBy>
+<createdTime>2023-10-02 05:07:02 UTC</createdTime>
+<ownerDesignName>diagram ERD</ownerDesignName>
+<engineerTo>
+<item key="17B11D13-1599-5175-EEAB-48CC8E81194E" value="true"/>
+</engineerTo>
+<sourcePk>B5C80986-C211-04BE-E7B0-3BF5D49B4733</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DC712828-F3DD-4550-B8BB-76D8F722DFD4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8751CE33-BA22-2925-1E96-30F5E5BB7014</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
